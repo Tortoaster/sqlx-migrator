@@ -24,7 +24,6 @@ COPY --from=sqlx /usr/local/cargo/bin/sqlx /usr/local/bin
 
 ENV REV=HEAD
 ENV MIGRATIONS_DIR=migrations
-ENV DB_PORT=5432
 
 WORKDIR /app
 
